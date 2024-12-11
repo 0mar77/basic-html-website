@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sheldon Dinkleberg">
+    <meta name="description" content="My HTML Webiste">
+    <meta name="keywords" content="HTML, website, Sheldon Dinkleberg, junior developer, frontend developer">
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
     <title>Basic HTML Website</title>
+    <meta property="og:title" content="Dinkleberg's Webiste">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Dinkleberg's basic HTML website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="images/website.png">
 </head>
 <body style="font-family: Arial, Helvetica, sans-serif; padding:0px; margin:0px;">
     <header style="border:solid;padding-bottom:80px;">
@@ -11,14 +20,15 @@
         <nav style="display:block; text-align:end;">
             <ul style="list-style-type:none;display:inline-block;margin:30px;font-size:18px;">
                 <li style="display:inline-block;"><a href="">Home</a></li>
-                <li style="display:inline-block;"><a href="">/ Projects</a></li>
-                <li style="display:inline-block;"><a href="">/ Articles</a></li>
-                <li style="display:inline-block;"><a href="">/ Contacts</a></li>
+                <li style="display:inline-block;"><a href="/pages/projects.html">/ Projects</a></li>
+                <li style="display:inline-block;"><a href="/pages/articles.html">/ Articles</a></li>
+                <li style="display:inline-block;"><a href="/pages/contact.html">/ Contact</a></li>
             </ul>
         </nav>
 
         <h1 style="font-family:cursive;text-align: center;">Frontend Developer</h1>
     </header>
+
     <main style="border:solid; height:320px;display:grid;grid-template-columns:32% 33% 32%;">
         <section style="text-align: center;">
             <h2 style="font-family:cursive;">Projects</h2>
@@ -31,14 +41,14 @@
         <section style="text-align: center;border:solid;">
             <h2 style="font-family:cursive;">Work Experience</h2>
 
-            <div style="text-align:left; padding:10px 14px; border-bottom:solid; font-size: 14px;">
+            <div style="text-align:left; padding:0px 14px; border-bottom:solid; font-size: 14px;">
                 <div style="font-family: cursive;">roadmap.sh</div>
-                <p style="margin-top:10px;">solved all of the Frontend projects <br>
+                <p style="margin-top:5px;">solved all of the Frontend projects <br>
                     <a href="https://roadmap.sh/" style="font-size: 12px;">Visit my Profile</a>
                 </p>
             </div>
 
-            <div style="text-align:left; padding:10px 14px; font-size:14px;">
+            <div style="text-align:left; padding:5px 14px; font-size:14px;">
                 <div style="font-family: cursive;">Open source work</div>
                 <p > Contributed to 50 opensource projects. Made my own projects with 200 github stardups <br>
                     <a href="https://github.com/0mar77" style="font-size: 12px;">Visit my Github Profile</a>
@@ -67,7 +77,7 @@
                 - Ms. Puff
             </div>
             <div style="border:solid; border-radius:28px; padding:15px">
-                Dinkleberg did just enough to pass my class <br>
+                Dinkleberg did just enough to pass my class <br><br>
                 - Mr. Crocker
             </div>
             <div style="border:solid; border-radius:28px; padding:15px">
@@ -76,7 +86,7 @@
             </div>
         </section>
 
-        <div style="font-family:cursive; text-align: center;">All rights reserved 2025</div>
+        <div style="font-family:cursive; text-align: center;">© All rights reserved 2025</div>
     </footer>
 </body>
 </html>
